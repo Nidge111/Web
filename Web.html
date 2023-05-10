@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+  <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body>
+  <header>
+    <h1>Chat App</h1>
+    <div id="username-display-top-right"></div>
+  </header>
+  <main>
+    <div id="login-container">
+      <input type="text" id="username-input" placeholder="Enter your username">
+      <button id="login-button">Log in</button>
+    </div>
+    <div id="chat-container" style="display: none;">
+        <div id="messages"></div>
+        <div id="input-container">
+          <input type="text" id="message-input" placeholder="Type your message">
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+  </main>
+  <script src="Send.js"></script>
+</body>
+</html>
